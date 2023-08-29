@@ -1,0 +1,372 @@
+/* Home */
+.navbar-toggle{
+    position: relative;
+    float: right;
+    padding: 4px 5px;
+    margin-top: 6px;
+    margin-right: 15px;
+    margin-bottom: 6px;
+    background-color:white;
+    background-image: none;
+    border: 1px solid #444;
+    border-radius: 4px;
+
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-size: 16px;
+}
+.bgnav{
+    background-color:#AC7088;
+}
+.padding{
+    padding: 2% 2%;
+}
+
+.imgborder{
+    border: 8px inset #AC7088;
+    padding: 2px;
+}
+.titlefont{
+    color:#850E35;
+    font-size: 32px;
+    font-family:cursive;
+    font-weight: 600;  
+}
+.psize{
+    color:#180A0A;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;      
+}
+.grace-heading{
+    text-align: center;
+    margin: auto;
+    font-family: cursive;
+    font-weight: 500;
+    color:#850E35;
+    font-size: 32px;   
+}
+.thumbnail{
+    width: 85%;
+    margin: auto;
+    background-color:cornsilk;
+}
+.thumbnail:hover{
+    transform: scale(0.9);
+}
+.textalign{
+    text-align: center;
+}
+.servicetitle{
+    color:#850E35;
+    font-size: 32px;
+    font-family:cursive;
+    font-weight: 600;
+}
+.service-border{
+    margin: 1% auto;
+    padding: auto;
+}
+.service-img{
+    border:5px double black;
+    width:90%;
+}
+.service-img:hover{
+    transform: scale(1.1);
+}
+.footer-style{
+    color: white;
+    background-color: #59003c;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 400;  
+}
+.footer-heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 32px;  
+}
+.linkfooter{
+    padding-left: 12%;
+}
+.list{
+    color: white;
+    list-style: none;
+}
+a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+.follow-padding{
+    padding: 3%;
+    color: white;
+}
+/* About */
+.historymargin{
+    margin: 2% auto;
+    padding: 0 3%;
+}
+.arch-border{
+    border: 5px groove lavender;
+    margin:2% auto;
+}
+.arch-border:hover{
+    transform: scale(1.1);
+}
+/*Sevas*/
+.sevaimgborder{
+    border: 2px groove #444;
+    margin: 2% auto;
+    width: 80%;
+}
+.sevafont{
+    color:#180A0A;
+    font-family:cursive;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 4%;
+    
+}
+/* .sevaheading{
+    font-size: 50px;
+    color: darkred;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} */
+/*Details*/
+.detailborder{
+    color:#180A0A;
+    font-family:cursive;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 4%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------*/
+/*max-992*/
+@media only screen and (max-width: 992px){
+    /* Home */
+    .imgborder{
+        border: 8px inset #AC7088;
+        padding: 2px;
+        width: 80%;
+        margin: auto;
+    }
+    .titlefont{
+        color:#850E35;
+        font-size: 25px;
+        font-family:cursive;
+        font-weight: 600;  
+    }
+    .psize{
+        color:#180A0A;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 22px;      
+    }
+    .grace-heading{
+        text-align: center;
+        margin: auto;
+        font-family: cursive;
+        font-weight: 500;
+        color:#850E35;
+        font-size: 25px;   
+    }
+    .thumbnail{
+        width: 80%;
+        margin: auto;
+        background-color:cornsilk;
+    }
+    .servicetitle{
+        color:#850E35;
+        font-size: 32px;
+        font-family:cursive;
+        font-weight: 600;
+    }
+    .service-img{
+        border:5px double black;
+        width:80%;
+        margin: 0 auto;
+    }
+    .footer-style{
+        color: white;
+        background-color: #59003c;
+        font-size: 14px;
+        line-height: 23px;
+        font-weight: 400;  
+    }
+    .footer-heading{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 400;
+        font-size: 25px;  
+    }
+    .linkfooter{
+        padding-left: 2%;
+    }
+    
+}
+/* max-768 */
+@media only screen and (max-width: 768px){
+    /* Home */
+    .imgborder{
+        border: 8px inset #AC7088;
+        padding: 2px;
+        width: 70%;
+        margin: auto;
+    }
+    .titlefont{
+        color:#850E35;
+        font-size: 25px;
+        font-family:cursive;
+        font-weight: 600;  
+    }
+    .psize{
+        color:#180A0A;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 22px;      
+    }
+    .grace-heading{
+        text-align: center;
+        margin: auto;
+        font-family: cursive;
+        font-weight: 500;
+        color:#850E35;
+        font-size: 25px;   
+    }
+    .thumbnail{
+        width: 55%;
+        margin: auto;
+        background-color:cornsilk;
+    }
+    .servicetitle{
+        color:#850E35;
+        font-size: 32px;
+        font-family:cursive;
+        font-weight: 600;
+    }
+    .service-img{
+        border:5px double black;
+        width:60%;
+        margin: 0 auto;
+    }
+    .footer-style{
+        color: white;
+        background-color: #59003c;
+        font-size: 14px;
+        line-height: 23px;
+        font-weight: 400;  
+    }
+    .footer-heading{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 400;
+        font-size: 25px;  
+    }
+    .linkfooter{
+        padding-left: 2%;
+    }
+    
+}
+/* max-500 */
+@media only screen and (max-width: 500px){
+    /* Home */
+    .imgborder{
+        border: 8px inset #AC7088;
+        padding: 2px;
+        width: 80%;
+        margin: auto;
+    }
+    .titlefont{
+        color:#850E35;
+        font-size: 23px;
+        font-family:cursive;
+        font-weight: 600;  
+    }
+    .psize{
+        color:#180A0A;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 22px;      
+    }
+    .grace-heading{
+        text-align: center;
+        margin: auto;
+        font-family: cursive;
+        font-weight: 500;
+        color:#850E35;
+        font-size: 25px;   
+    }
+    .thumbnail{
+        width: 65%;
+        margin: auto;
+        background-color:cornsilk;
+    }
+    .servicetitle{
+        color:#850E35;
+        font-size: 23px;
+        font-family:cursive;
+        font-weight: 600;
+    }
+    .service-img{
+        border:5px double black;
+        width:70%;
+        margin: 0 auto;
+    }
+    .footer-style{
+        color: white;
+        background-color: #59003c;
+        font-size: 14px;
+        line-height: 23px;
+        font-weight: 400;  
+    }
+    .footer-heading{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 400;
+        font-size: 25px;  
+    }
+    .linkfooter{
+        padding-left: 2%;
+    }
+    .account-login {
+        width: 80%;
+      }
+    
+}
+
+    
+
+
+
+
+/* seva */
+.seva-style{
+    margin-bottom: 6% ;
+}
+.img-gap{
+    margin: 6% auto;
+    border: 3px ridge #444;
+}
+.img-gap:hover{
+    transform: scale(1.1);
+}
+/*Contact*/
+.noborder{
+    border:none ;
+    
+}
+
