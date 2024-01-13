@@ -42,7 +42,7 @@
     <script src="front-end/js/jquery.validate.min.js"></script>
 
 
-    <script>
+    	<script>
 			$('.signinbutton').click(function(e)
 			{
 				e.preventDefault();
@@ -70,6 +70,6 @@
 					} 
 				});
 			})
-		</script>
+	</script>
 </body>
 </html>
