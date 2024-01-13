@@ -27,11 +27,11 @@
 		{
 			if($id['category_id']=="")
 			{
-                $categoryInsert=DB::table('category')->insertGetId(["cat_name"=>$id['categoryname']]);
+				$categoryInsert=DB::table('category')->insertGetId(["cat_name"=>$id['categoryname']]);
 			}
 			else
 			{
-			    $categoryInsert=DB::table('category')->where('category_id','=',$id['category_id'])->update(["cat_name"=>$id['categoryname']]);
+			    	$categoryInsert=DB::table('category')->where('category_id','=',$id['category_id'])->update(["cat_name"=>$id['categoryname']]);
 			}
 			return $categoryInsert; 
 		}
