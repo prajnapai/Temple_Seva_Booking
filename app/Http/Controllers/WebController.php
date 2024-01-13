@@ -200,7 +200,6 @@ class WebController extends Controller
 				{
 					$data['id']=$uname->id;
 					$data['userdetail']=DB::table('users')->where('id',$data['id'])->first();
-					//$data['customer']=DB::table('customer')->where('customer_id',$data['id'])->get();
 				}
 				else
 				{
@@ -233,10 +232,9 @@ class WebController extends Controller
 			$uname= Auth::user();
 			if(!empty($uname))
 			{
-		    	$data['id']=$uname->id;
-		    	$data['userdetail']=DB::table('users')->where('id',$data['id'])->first();
+			    	$data['id']=$uname->id;
+			    	$data['userdetail']=DB::table('users')->where('id',$data['id'])->first();
 				$data['profileloop']=DB::table('customer')->where('id',$data['id'])->first();
-
 			}
 			else
 			{
