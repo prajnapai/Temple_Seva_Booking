@@ -89,30 +89,30 @@
 							required:true
 							
 						},
-                        lastname:
+						lastname:
 						{
 							required:true
 							
 						},
-                        regemail:
+						regemail:
 						{
 							required:true
 							
 						},
-                        mobileno:
+						mobileno:
 						{
 							required:true
 							
 						},
-                        regpassword:
+						regpassword:
 						{
 							required:true
 							
 						},
-                        confirmpass:
+						confirmpass:
 						{
 							required:true,
-                            equalTo:'#regpassword'
+							equalTo:'#regpassword'
 							
 						}
 					},
@@ -123,30 +123,30 @@
 							required:"Please Enter First name"
 							
 						},
-                        lastname:
-                        {
+						lastname:
+						{
 							required:"Please Enter Last name"
 							
 						},
-                        regemail:
-                        {
+						regemail:
+						{
 							required:"Please Enter Email-id "
 							
 						},
-                        mobileno:
-                        {
+						mobileno:
+						{
 							required:"Please Enter Contact number"
 							
 						},
-                        regpassword:
-                        {
+						regpassword:
+						{
 							required:"Please Enter Password"
 							
 						},
-                        confirmpass:
-                        {
+						confirmpass:
+						{
 							required:"Please confirm Password",
-                            equalTo:'Passwords not matching'
+							equalTo:'Passwords not matching'
 							
 						}
 					}  
