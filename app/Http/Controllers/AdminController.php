@@ -84,31 +84,6 @@ class AdminController extends Controller
 			return view('back-end.bookings',compact('data'));
 		}
 
-	// public function booking_insert(Request $request)
-	// 	{
-	// 		$data['booking_id']=$request->input('booking_id');
-	// 		$data['bookingname']=$request->input('bookingname');
-	// 		$data['bookingemail']=$request->input('bookingemail');
-	// 		$data['bookingseva']=$request->input('bookingseva');
-	// 		$data['bookingcontact']=$request->input('bookingcontact');
-	// 		$data['bookingamount']=$request->input('bookingamount');
-
-	// 		return $this->admin->bookingInsert($data);
-			
-	// 	}
-
-	// public function deleteBooking(Request $request)
-	// 	{
-	// 		$data=$request->input('Did');
-	// 		return DB::table('bookings')->where('booking_id',$data)->update(['status'=>'1']);
-	// 	}
-
-	// public function editBooking(Request $request)
-	// 	{
-	// 		$data['Eid']=$request->input('Eid');
-	// 		$editData=DB::table('bookings')->where('booking_id',$data['Eid'])->first();
-	// 		return json_encode($editData);
-	// 	}
 
 		public function category()
 		{
@@ -194,7 +169,7 @@ class AdminController extends Controller
 			return view('back-end.password');
 		}
 
-    public function password_insert(Request $request)
+    		public function password_insert(Request $request)
 		{
 			$user=DB::table('users')->where('usertype','admin')->first();
 			$password=$user->password;
@@ -209,7 +184,7 @@ class AdminController extends Controller
 				{
 					return 0;
 				}
-			}
+		}
 
 		
 
