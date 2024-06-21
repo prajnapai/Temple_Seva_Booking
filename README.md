@@ -1,0 +1,1 @@
+Developed a user friendly website for Online Temple Seva Booking using HTML, CSS, JavaScript and PHP. Implemented features for user registration, seva selection and also a dashboard for Admin to manage the seva details and booking records that streamlines the process, enhances accessibility, and provides a smooth experience for both devotees and temple administrators.
